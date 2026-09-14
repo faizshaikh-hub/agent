@@ -36,11 +36,14 @@ wheels/
 .installed.cfg
 *.egg
 
-# Database / Storage
+# Database / Storage & Archives
 *.db
 *.sqlite
 *.sqlite3
 backend/complaint_mgmt.db
+*.zip
+*.pdf
+
 
 # Environment variables & Secrets
 .env
