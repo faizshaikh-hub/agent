@@ -1,0 +1,63 @@
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  transition: all 0.4s ease;
+  white-space: nowrap;
+}
+
+.badge-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Pending Triage - Amber/Yellow */
+.badge-pending {
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fcd34d;
+}
+.badge-pending .badge-dot {
+  background: #f59e0b;
+  box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.2);
+  animation: pulse-amber 2s ease-in-out infinite;
+}
+
+/* Ready to Commit - Green */
+.badge-ready {
+  background: #d1fae5;
+  color: #065f46;
+  border: 1px solid #6ee7b7;
+}
+.badge-ready .badge-dot {
+  background: #10b981;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2);
+  animation: pulse-green 2s ease-in-out infinite;
+}
+
+/* Committed */
+.badge-committed {
+  background: #dbeafe;
+  color: #1e40af;
+  border: 1px solid #93c5fd;
+}
+.badge-committed .badge-dot {
+  background: #3b82f6;
+}
+
+@keyframes pulse-amber {
+  0%, 100% { box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.2); }
+  50% { box-shadow: 0 0 0 5px rgba(245, 158, 11, 0.05); }
+}
+
+@keyframes pulse-green {
+  0%, 100% { box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2); }
+  50% { box-shadow: 0 0 0 5px rgba(16, 185, 129, 0.05); }
+}

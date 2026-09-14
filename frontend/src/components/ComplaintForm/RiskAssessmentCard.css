@@ -1,0 +1,124 @@
+.risk-card {
+  margin-top: 24px;
+  background: #f8fafc;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 18px 20px;
+  transition: all 0.4s ease;
+}
+
+.risk-card-active {
+  background: linear-gradient(135deg, #f0f0ff 0%, #f5f3ff 50%, #fef3f2 100%);
+  border-color: #c7d2fe;
+}
+
+.risk-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.risk-card-icon {
+  display: flex;
+  align-items: center;
+  color: #6366f1;
+}
+
+.risk-card-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1e1b4b;
+  letter-spacing: -0.2px;
+}
+
+.risk-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.risk-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.risk-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.risk-item.full {
+  grid-column: 1 / -1;
+}
+
+.risk-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.risk-value {
+  font-size: 13px;
+  color: #334155;
+  line-height: 1.5;
+}
+
+.risk-severity-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  width: fit-content;
+  letter-spacing: 0.3px;
+}
+
+.severity-minor {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.severity-major {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.severity-critical {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.risk-narrative {
+  font-size: 13px;
+  color: #475569;
+  line-height: 1.6;
+  margin: 0;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.risk-card-empty {
+  text-align: center;
+  padding: 8px 0;
+}
+
+.risk-card-empty p {
+  font-size: 12.5px;
+  color: #94a3b8;
+  margin: 0;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .risk-row {
+    grid-template-columns: 1fr;
+  }
+}

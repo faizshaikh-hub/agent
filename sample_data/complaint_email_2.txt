@@ -1,0 +1,36 @@
+Subject: Product Complaint - Metformin HCl Tablets 850mg - Wrong Tablet Count
+
+From: pharmacy.manager@citygeneral.hospital.com
+To: complaints@pharmamanufacturer.com
+Date: September 12, 2026
+
+Dear Sir/Madam,
+
+This is to formally report a packaging defect identified in Metformin Hydrochloride Tablets 850 mg supplied to City General Hospital, Mumbai.
+
+Product Information:
+- Product Name: Metformin HCl Tablets 850 mg
+- Batch Number: MET260415
+- Manufacturing Date: April 2026
+- Expiry Date: March 2028
+- Pack Size: 30 tablets/blister pack (3 strips of 10)
+
+Issue Description:
+During our inward quality check, we found that 5 out of 20 blister packs received contained only 28 tablets instead of the labeled 30 tablets. Two cavities in the blister strips were empty but sealed, suggesting a filling line malfunction rather than post-production tampering.
+
+Total affected packs: 5
+Total missing tablets: 10
+
+The remaining 15 packs from the same consignment have been verified and contain the correct count.
+
+We request:
+1. Replacement of the 5 defective packs
+2. Investigation report on the batch filling process
+3. Confirmation on whether other shipments from this batch are affected
+
+This has been reported to our Drug Controller as per hospital protocol.
+
+Regards,
+Dr. Priya Mehta
+Chief Pharmacist
+City General Hospital, Mumbai
